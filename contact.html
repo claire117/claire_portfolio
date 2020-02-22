@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext">
-	<!-- <link rel="stylesheet" href="css/animate.css"> -->
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -51,7 +51,7 @@
   
 
 
-    <div class="container flex horizontal">
+    <div class="wow fadeInRight container flex horizontal">
       <div class="banner flex vertical grayscale shadow tobo">
         <a id="contact-link" href="#contact" class="text nodecoration flex horizontal">
           <p>Contact me</p>
@@ -83,15 +83,21 @@
 
   </header>
 
-  <div class="loading-overlay">
+  <!-- <div class="loading-overlay">
 		<span class="loading-overlay__content h1">CONTACT<br>
 			ME</span>
-	</div>
+	</div> -->
 
 <!-- partial -->
 <script src="js/contact.js"></script>
-<!-- <script src="js/WOW-master/dist/wow.min.js"></script> -->
+<script src="js/WOW-master/dist/wow.min.js"></script>
+<script>
 
+        // 掛載WOW
+        new WOW().init();
+
+
+</script>
 </body>
 
 </html>

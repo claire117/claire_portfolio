@@ -23,7 +23,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
-	<!-- <link rel="stylesheet" href="css/animate.css"> -->
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -62,7 +62,7 @@
 				<section class="profile section-padding">
 					<div class="container">
 						<div class="picture-resume-wrapper">
-							<div class="picture-resume">
+							<div class="wow fadeInUp picture-resume">
 								<span><img src="images/img-02.png" alt="" /></span>
 								<svg version="1.1" viewBox="0 0 350 350">
 
@@ -94,7 +94,7 @@
 							</div>
 							<!-- <div class="clearfix"></div>
 					</div> -->
-							<div class="name-wrapper">
+							<div class="wow fadeInUp name-wrapper">
 								<h1>陳宜亭</h1>
 								<br>
 								<h3>Claire Chen</h3>
@@ -102,7 +102,7 @@
 						</div>
 				</section>
 
-				<section class="experience section-padding ">
+				<section class="wow fadeInRight experience section-padding ">
 					<div class="container ">
 						<h3 class="experience-title">學歷</h3>
 
@@ -205,11 +205,19 @@
 	<script>
 	  $(window).on('load', function(){
 			console.log(123);
-			$(".overlay").delay(500).fadeOut();
+			$(".overlay").delay(100).fadeOut();
 		});
 	</script>
 	<script src="js/about.js"></script>
-	<!-- <script src="js/WOW-master/dist/wow.min.js"></script> -->
+	<script src="js/WOW-master/dist/wow.min.js"></script>
+
+	<script>
+
+        // 掛載WOW
+        new WOW().init();
+
+
+</script>
 	
 </body>
 
