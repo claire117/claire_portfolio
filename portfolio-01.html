@@ -23,18 +23,18 @@
     <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="css/portfolio.css">
-
+	<link rel="stylesheet" href="css/animate.css">
 
 <body>
 
-    <header class="header">
+    <header class="wow fadeInRight header">
         <div class="container-header">
             <div class="menu-icon">
                 <a href="javascript:void(0)"></a>
                 <i class="fas fa-bars fa-2x"></i>
             </div>
 
-            <div class="navbar">
+            <div class=" navbar">
                 <ul>
                     <li><a href="index.html">CLAIRE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -54,7 +54,7 @@
 
 
     <!-- ////////////////// btn //////////////// -->
-    <div class="button-area">
+    <div class="wow fadeInUp button-area">
         <div class="container-btn">
             <a href="portfolio-01.html" class="button">網站設計</a>
             <a href="portfolio-02.html" class="button reverse dark">平面設計</a>
@@ -144,7 +144,14 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- partial -->
     <script src="js/portfolio.js"></script>
-
+    <script src="js/WOW-master/dist/wow.min.js"></script>
+    <script>
+    
+            // 掛載WOW
+            new WOW().init();
+    
+    
+    </script>
  
 </body>
 

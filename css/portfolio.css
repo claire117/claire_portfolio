@@ -131,6 +131,7 @@ header {
 }
 
 .iicon{
+  display: block;
   margin: auto;
 }
 
@@ -142,7 +143,11 @@ header {
   color: #00CCFF;
 }
 
-
+@media screen and (max-width:786px) {
+  .iicon{
+    display: none;
+  }
+}
 
 /* ********  btn   ********* */
 /* ********  btn   ********* */
