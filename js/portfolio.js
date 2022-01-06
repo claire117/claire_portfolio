@@ -252,4 +252,5 @@ $('.button').html((i, html) => {
       display_velocity: 'low',
       slide_velocity: 'normal'
   };
+  
 })(jQuery);
